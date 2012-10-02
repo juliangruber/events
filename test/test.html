@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="../build/build.js"></script>
+    <script src="../node_modules/mocha/mocha.js"></script>
+    <script>mocha.setup('bdd');</script>
+    <script src="../node_modules/expect.js/expect.js"></script>
+    <script src="test.js"></script>
+    <script>
+      window.addEventListener('load', function() {
+        mocha.run();
+      });
+    </script>
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+  </body>
+</html>

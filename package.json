@@ -1,0 +1,25 @@
+{
+  "name": "events-component",
+  "version": "0.0.1",
+  "description": "Node's events module in the browser",
+  "main": "index.js",
+  "dependencies": {
+    "mocha": "*",
+    "expect.js": "*"
+  },
+  "scripts": {
+    "test": "open test/test.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/events.git"
+  },
+  "keywords": [
+    "node",
+    "events",
+    "eventemitter",
+    "emitter"
+  ],
+  "author": "Julian Gruber <julian@juliangruber.com>",
+  "license": "MIT"
+}
