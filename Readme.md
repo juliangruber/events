@@ -25,6 +25,8 @@ $ npm install events-component
 
 ```javascript
 var EventEmitter = require('events').EventEmitter;
+// or: var EventEmitter = require('events');
+
 var ee = new EventEmitter();
 
 ee.on('foo', function(data) {

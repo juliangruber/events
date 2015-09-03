@@ -2,14 +2,17 @@ var events = require('events');
 
 describe('events', function() {
   it('should export EventEmitter', function() {
-    expect(events.EventEmitter).to.be.an(Object);
+    expect(events).to.be.a(Function);
+  })
+  it('should export .EventEmitter', function() {
+    expect(events.EventEmitter).to.be.a(Function);
   })
 })
 
 describe('EventEmitter', function() {
   var ee;
   beforeEach(function() {
-    ee = new events.EventEmitter();
+    ee = new events();
   })
   describe('.setMaxListeners(n)', function() {
     it('should do nothing', function() {

@@ -7,4 +7,5 @@ Emitter.prototype.removeAllListeners = Emitter.prototype.off;
 
 Emitter.prototype.setMaxListeners = function(){ /* noop */ };
 
-exports.EventEmitter = Emitter;
+module.exports = Emitter;
+module.exports.EventEmitter = Emitter;
