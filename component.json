@@ -2,7 +2,7 @@
   "name": "events",
   "repo": "juliangruber/events",
   "description": "Node's events module in the browser",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": [],
   "dependencies": {
     "component/emitter": "*"
