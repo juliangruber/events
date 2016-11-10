@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "mocha": "*",
-    "expect.js": "*"
+    "expect.js": ">=0.3.1"
   },
   "scripts": {
     "test": "open test/test.html"
