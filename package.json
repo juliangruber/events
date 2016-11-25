@@ -4,7 +4,7 @@
   "description": "Node's events module in the browser",
   "main": "index.js",
   "dependencies": {
-    "mocha": "*",
+    "mocha": ">=3.2.0",
     "expect.js": "*"
   },
   "scripts": {
